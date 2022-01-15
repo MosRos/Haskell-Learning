@@ -25,6 +25,8 @@ source-repository head
 
 library
   exposed-modules:
+      DependencyAndLogMessage
+      HelloWorld
       Lib
   other-modules:
       Paths_learn_to_haskell
