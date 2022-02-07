@@ -3,8 +3,9 @@ module Main where
 import Lib 
 import HelloWorld
 import DependencyAndLogMessage
+import Functions1
 
 main :: IO ()
-main = logFunc    
+main = example1
 
 

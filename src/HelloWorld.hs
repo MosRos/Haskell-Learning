@@ -4,4 +4,4 @@ module HelloWorld
 
 
 helloFunc :: IO ()
-helloFunc = putStrLn "HelloWorld :)" 
+helloFunc = putStrLn "HelloWorld :)"

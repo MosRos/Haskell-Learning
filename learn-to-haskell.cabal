@@ -26,15 +26,19 @@ source-repository head
 library
   exposed-modules:
       DependencyAndLogMessage
+      Functions1
       HelloWorld
       Lib
+      TypesIntro
   other-modules:
       Paths_learn_to_haskell
   hs-source-dirs:
       src
   build-depends:
-      base >=4.7 && <5
+      QuickCheck
+    , base >=4.7 && <5
     , fast-logger
+    , hspec
   default-language: Haskell2010
 
 executable learn-to-haskell-exe
@@ -45,8 +49,10 @@ executable learn-to-haskell-exe
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      QuickCheck
+    , base >=4.7 && <5
     , fast-logger
+    , hspec
     , learn-to-haskell
   default-language: Haskell2010
 
@@ -59,7 +65,9 @@ test-suite learn-to-haskell-test
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      QuickCheck
+    , base >=4.7 && <5
     , fast-logger
+    , hspec
     , learn-to-haskell
   default-language: Haskell2010
