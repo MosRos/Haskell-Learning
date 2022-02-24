@@ -1,4 +1,4 @@
-module Functions1(
+module Ch01_Intro(
     example1, double, quadruple
 ) where 
 

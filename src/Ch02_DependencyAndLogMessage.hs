@@ -1,4 +1,4 @@
-module DependencyAndLogMessage
+module Ch02_DependencyAndLogMessage
     ( logFunc
     ) where
 

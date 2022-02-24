@@ -1,4 +1,4 @@
-module HelloWorld
+module Ch0_HelloWorld
     ( helloFunc
     ) where
 

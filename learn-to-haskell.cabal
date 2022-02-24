@@ -25,11 +25,13 @@ source-repository head
 
 library
   exposed-modules:
-      DependencyAndLogMessage
-      Functions1
-      HelloWorld
+      Ch01_Intro
+      Ch02_DependencyAndLogMessage
+      Ch03_Types
+      Ch04_Functions
+      Ch05_Functions2
+      Ch0_HelloWorld
       Lib
-      TypesIntro
   other-modules:
       Paths_learn_to_haskell
   hs-source-dirs:
